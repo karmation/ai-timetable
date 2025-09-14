@@ -1,0 +1,11 @@
+<!-- Page 4: Manage Rooms -->
+<main id="rooms-page" class="page anim-page-content">
+    <section class="card">
+        <h2>Add New Room or Lab</h2>
+        <form class="input-form"><div class="form-group"><label for="room-id">Room/Lab No.</label><input type="text" id="room-id" placeholder="e.g., R-301" required></div><div class="form-group"><label for="room-capacity">Capacity</label><input type="number" id="room-capacity" placeholder="e.g., 60" required></div><div class="form-group"><label for="room-type">Room Type</label><select id="room-type" required><option value="" disabled selected>Select Type</option><option value="lecture">Lecture Hall</option><option value="lab">Computer Lab</option></select></div><button type="submit" class="btn-add">+ Add Room</button></form>
+    </section>
+    <section class="card">
+        <h2>Existing Rooms & Labs</h2>
+        <div class="data-table-container"><table class="data-table"><thead><tr><th>Room No.</th><th>Capacity</th><th>Type</th><th>Actions</th></tr></thead><tbody><tr><td>R-301</td><td>60</td><td>Lecture Hall</td><td><button class="btn-delete"><i class="fa-solid fa-trash-can"></i> Delete</button></td></tr><tr><td>CL-1</td><td>45</td><td>Computer Lab</td><td><button class="btn-delete"><i class="fa-solid fa-trash-can"></i> Delete</button></td></tr></tbody></table></div>
+    </section>
+</main>

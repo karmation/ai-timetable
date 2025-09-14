@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - AI Timetable Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body class="login-body"> <!-- We can reuse the login page styles -->
+
+    <div class="login-card anim-scale-in">
+        <h2 class="anim-stagger">Create Account</h2>
+        <p class="anim-stagger">Get started by creating a new account.</p>
+        <form class="login-form">
+            <div class="input-group anim-stagger">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group anim-stagger">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+             <div class="input-group anim-stagger">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit" class="btn-login-submit anim-stagger">Register</button>
+        </form>
+        <div class="login-footer anim-stagger">
+            <a href="login.html">Already have an account? Login</a>
+        </div>
+    </div>
+
+    <!-- Anime.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <!-- Your App's Script (as a module) -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>

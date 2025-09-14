@@ -1,0 +1,13 @@
+<!-- Page 1: Dashboard -->
+<main id="dashboard-page" class="page active anim-page-content">
+    <section class="card text-center">
+        <h2>Generate New Timetable</h2>
+        <p>Use the data from Courses, Faculty, and Rooms to generate an optimized schedule.</p>
+        <button id="generate-btn" class="btn-generate">✨ Generate Timetable</button>
+    </section>
+    <section id="timetable-output" class="card">
+        <h2>Generated Timetable</h2>
+        <div class="timetable-controls"><label for="view-select">View Program:</label><select id="view-select"><option value="fyup">FYUP B.Sc</option><option value="bed">B.Ed</option></select><button class="btn-export">Export as PDF</button></div>
+        <div class="timetable-grid-placeholder"><i class="fa-regular fa-clock"></i><p>Your generated timetable will appear here.</p></div>
+    </section>
+</main>
